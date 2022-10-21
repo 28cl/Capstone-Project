@@ -237,6 +237,7 @@ Google Text-to-Speech (gTTS) API was used to provide audio output to the what I 
 - Overfitting is greatly reduced after introducing Dropout and Kernel Regularizer
 - Improving the generalisation of the models resulted in a decrease in overall accuracy
 - Training of models took a long time and depends a lot on luck
+- BLEU Score is perhaps not a very good indicator of how well the model is performing
 
 
 ### Improvements
