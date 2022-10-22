@@ -49,14 +49,14 @@ The follow steps were taken:
 Exploratory Data Analysis was performed on the captions provided as part of the dataset. There are a total of 40,455 captions for 8,091 images, which translates to 5 captions per image. 
 
 #### Overview of the images that correspond to the captions 
-<img src = "assets/overview.png" width = "800">
+<img src = "Assets/overview.png" width = "800">
 
 #### Distribution of Word Counts
 After cleaning, word count per caption decreased but the frequency of the median word count has increased
 
-<img src = "assets/word count dist before.png" width = "500">
+<img src = "Assets/word count dist before.png" width = "500">
 
-<img src = "assets/word count dist after.png" width = "500">
+<img src = "Assets/word count dist after.png" width = "500">
 
 #### 50 Most Frequent Occurring N-grams
 
@@ -64,9 +64,9 @@ Based on the charts below, you can tell that the images consists of a lot of dog
 
 This probably gives some indication that the model will not be able to predict objects very well.
 
-<img src = "assets/50 unigram.png" width = "800">
+<img src = "Assets/50 unigram.png" width = "800">
 
-<img src = "assets/50 bigram.png" width = "800">
+<img src = "Assets/50 bigram.png" width = "800">
 
 ## Feature Extraction
 
@@ -76,8 +76,8 @@ VGG16 is 16-layers deep while Inception v3 is 48 layers deep. In both cases, the
 
 The extracted features are saved in pickle files to be used in the modelling.
 
-- [VGG16 Features](code/features_vgg16.pkl)
-- [Inception v3 Features](code/features_inceptionv3.pkl)
+- [VGG16 Features](Code/features_vgg16.pkl)
+- [Inception v3 Features](Code/features_inceptionv3.pkl)
 
 ## Preprocessing / Feature Engineering
 
@@ -107,10 +107,10 @@ Captioning Models were created using previously extracted features. The hyperpar
 
 #### VGG16
 
-<img src = "assets/model vgg16.png" width = "500">
+<img src = "Assets/model vgg16.png" width = "500">
 
 #### Inception v3 
-<img src = "assets/model inception v3.png" width = "500">
+<img src = "Assets/model inception v3.png" width = "500">
 
 The parameters of the Captioning Models training are as follows:
 
@@ -132,39 +132,39 @@ After including higher Dropout and introducing Kernel Regularizer, both Captioni
 
 #### Results for VGG16 Base Model (Dropout = 0.4)
 
-<img src = "assets/acc chart base vgg model.png" width = "500">
+<img src = "Assets/acc chart base vgg model.png" width = "500">
 
-<img src = "assets/loss chart base vgg model.png" width = "500">
+<img src = "Assets/loss chart base vgg model.png" width = "500">
 
 #### Results for VGG16 Base Model + Dropout = 0.6
 
-<img src = "assets/acc chart base vgg plus dropout model.png" width = "550">
+<img src = "Assets/acc chart base vgg plus dropout model.png" width = "550">
 
-<img src = "assets/loss chart base vgg plus dropout model.png" width = "550">
+<img src = "Assets/loss chart base vgg plus dropout model.png" width = "550">
 
 #### Results for VGG16 Base Model + Dropout = 0.6 + Kernel Regularizer (L2 = 0.01)
 
-<img src = "assets/acc chart base vgg plus dropout kernel regularizer model.png" width = "650">
+<img src = "Assets/acc chart base vgg plus dropout kernel regularizer model.png" width = "650">
 
-<img src = "assets/loss chart base vgg plus dropout kernel regularizer model.png" width = "650">
+<img src = "Assets/loss chart base vgg plus dropout kernel regularizer model.png" width = "650">
 
 #### Results for Inception v3 Base Model (Dropout = 0.4)
 
-<img src = "assets/acc chart base inception model.png" width = "500">
+<img src = "Assets/acc chart base inception model.png" width = "500">
 
-<img src = "assets/loss chart base inception model.png" width = "500">
+<img src = "Assets/loss chart base inception model.png" width = "500">
 
 #### Results for Inception v3 Base Model + Dropout = 0.6
 
-<img src = "assets/acc chart base inception plus dropout model.png" width = "550">
+<img src = "Assets/acc chart base inception plus dropout model.png" width = "550">
 
-<img src = "assets/loss chart base inception plus dropout model.png" width = "550">
+<img src = "Assets/loss chart base inception plus dropout model.png" width = "550">
 
 #### Results for Inception v3 Base Model + Dropout = 0.6 + Kernel Regularizer (L2 = 0.01)
 
-<img src = "assets/acc chart base inception plus dropout kernel regularizer model.png" width = "650">
+<img src = "Assets/acc chart base inception plus dropout kernel regularizer model.png" width = "650">
 
-<img src = "assets/loss chart base inception plus dropout kernel regularizer model.png" width = "650">
+<img src = "Assets/loss chart base inception plus dropout kernel regularizer model.png" width = "650">
 
 #### (Bilingual Evaluation Understudy) BLEU Score
 
@@ -191,15 +191,15 @@ One thing to note, BLEU does not take into account the order in which the words 
 
 #### VGG16
 
-<img src = "assets/results1.png" width = "800">
+<img src = "Assets/results1.png" width = "800">
 
-<img src = "assets/results2.png" width = "800">
+<img src = "Assets/results2.png" width = "800">
 
 #### Inception v3
 
-<img src = "assets/results3.png" width = "800">
+<img src = "Assets/results3.png" width = "800">
 
-<img src = "assets/results4.png" width = "800">
+<img src = "Assets/results4.png" width = "800">
 
 ------------
 
@@ -207,15 +207,15 @@ One thing to note, BLEU does not take into account the order in which the words 
 
 #### Snow
 
-<img src = "assets/unseen1.png" width = "800">
+<img src = "Assets/unseen1.png" width = "800">
 
 #### Solider
 
-<img src = "assets/unseen2.png" width = "800">
+<img src = "Assets/unseen2.png" width = "800">
 
 #### Dog
 
-<img src = "assets/unseen3.png" width = "800">
+<img src = "Assets/unseen3.png" width = "800">
 
 ------------
 
@@ -223,9 +223,9 @@ One thing to note, BLEU does not take into account the order in which the words 
 
 Google Text-to-Speech (gTTS) API was used to provide audio output to the what I would consider to be best predicted captions. The outputs for the unseen images are in the following files:
 
-- [Snow](code/snow.wav)
-- [Soldiers](code/soldiers.wav)
-- [Dog](code/dog.wav)
+- [Snow](Code/snow.wav)
+- [Soldiers](Code/soldiers.wav)
+- [Dog](Code/dog.wav)
 
  
 ## Summary and Improvements
