@@ -232,6 +232,7 @@ Google Text-to-Speech (gTTS) API was used to provide audio output to the what I 
 
 ### Summary
 
+- In terms of best pre-train model to use for transfer learning, it is not a case of one-size-fits-all
 - EDA of captions gave a good understanding of the images that are in the dataset and what to expect in the results
 - Some of the captions are not useful in training the model
 - Overfitting is greatly reduced after introducing Dropout and Kernel Regularizer
