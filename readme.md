@@ -8,7 +8,7 @@
 
 This adage was first coined in the 1900s. The idea behind it was that complex and sometimes multiple ideas can be conveyed by a single still image. This suggests that perception is subjective and there are numerous interpretations to a single image.
 
-In this capstone project, I will be exploring the use of Neural Networks to generate captions in English to best describe an image. 
+In this capstone project, I will be exploring the use of Neural Networks to generate captions in English to best describe an image. The generated captions can then be converted to audio output. This will be beneficial to provide context to the visually-impared. 
 
 
 
@@ -18,7 +18,7 @@ Data used in this modelling are:
 
 - `Images`: Folder that contains 8,091 photographs from Flickr
 - `Random_Images`: Folder that contains 8 unseen images
-- `caption.txt`: contains 40,455 captions that correspond to the photographs in the Images Folder. There are 5 captions to describe each photograph. Each caption is idenified by the image path
+- `caption.txt`: contains 40,455 captions that correspond to the photographs in the Images Folder. There are 5 captions to describe each photograph. Each caption is identified by the image path
 
 ## Contents
 This project is split into several notebooks.
