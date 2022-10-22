@@ -4,11 +4,11 @@
 
 ## Problem Statement
 
-"A picture is worth a thousand words". This adage was first coined in the 1900s. The idea behind it was that complex and sometimes multiple ideas can be conveyed by a single still image.
+"A picture is worth a thousand words".
 
-However, for the visually impaired, is there a way to interpret these images so that they are able capture the essence of what the image is portraying?
+This adage was first coined in the 1900s. The idea behind it was that complex and sometimes multiple ideas can be conveyed by a single still image. This suggests that there may be numerous interpretations of a single image.
 
-In this capstone, I will be exploring the use of Neural Networks to generate captions to describe an image. Thereafter, with the help of an API, provide an audio output of the generated captions.
+In this capstone project, I will be exploring the use of Neural Networks to generate captions in English to best describe an image.
 
 
 ## Datasets
