@@ -6,9 +6,10 @@
 
 "A picture is worth a thousand words".
 
-This adage was first coined in the 1900s. The idea behind it was that complex and sometimes multiple ideas can be conveyed by a single still image. This suggests that there may be numerous interpretations of a single image.
+This adage was first coined in the 1900s. The idea behind it was that complex and sometimes multiple ideas can be conveyed by a single still image. This suggests that perception is subjective and there are numerous interpretations to a single image.
 
-In this capstone project, I will be exploring the use of Neural Networks to generate captions in English to best describe an image.
+In this capstone project, I will be exploring the use of Neural Networks to generate captions in English to best describe an image. 
+
 
 
 ## Datasets
